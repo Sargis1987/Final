@@ -1,3 +1,5 @@
+from jedi.plugins import pytest
+import pytest
 from Pages.Home_page import HomePage
 from Pages.Search_page import SearchPage
 

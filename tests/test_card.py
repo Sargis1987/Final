@@ -3,7 +3,7 @@ from Pages.Card_page import CardPage
 from Pages.Account_page import AccountPage
 from Pages.Subscribe_page import SubscribePage
 import time
-
+import pytest
 
 """test scenario: Open browser, navigate to ivi.ru homepage, try to sighn in with valid credentials,
    try to attach invalid credit_card, error msg must(При оплате возникла ошибка) present"""

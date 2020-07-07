@@ -9,8 +9,10 @@ class AccountPage(BasePage):
     login_form = {"by": By.ID, "value": "jsAuthToken"}
     username_input = {"by": By.XPATH, "value": "//*[@id='jsAuthToken']/div/div[1]/input"}
     password_input = {"by": By.XPATH, "value": "//*[@id='jsEmailAuth']/div/div[1]/input"}
-    uname_continue_button = {"by": By.CSS_SELECTOR, "value": "#jsAuthToken > div > div.auth-block__state-container.state-container > button"}
-    pass_continue_button = {"by": By.CSS_SELECTOR, "value": "#jsEmailAuth > div > div.auth-password-block__state-container.state-container > button"}
+    uname_continue_button = ({"by": By.CSS_SELECTOR, "value": "#jsAuthToken > div > div.auth-block"
+                                                              "__state-container.state-container > button"})
+    pass_continue_button = ({"by": By.CSS_SELECTOR, "value": "#jsEmailAuth > div > div.auth-password"
+                                                             "-block__state-container.state-container > button"})
     login_success_message = {"by": By.XPATH, "value": "//*[@id='root']/div/div[2]/div/div[1]/span[1]"}
     uname_failure_message ={"by": By.XPATH, "value": "//*[@id='jsAuthToken']/div/div[1]/div/div"}
     pass_failure_message = {"by": By.XPATH, "value": "//*[@id='jsEmailAuth']/div/div[1]/div/div"}
