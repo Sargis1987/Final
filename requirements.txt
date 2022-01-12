@@ -17,7 +17,7 @@ more-itertools==8.3.0
 packaging==20.3
 parso==0.7.0
 pickleshare==0.7.5
-pipenv==2020.6.2
+pipenv==2022.1.8
 pluggy==0.13.1
 prompt-toolkit==3.0.5
 py==1.8.1
